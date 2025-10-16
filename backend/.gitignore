@@ -1,0 +1,4 @@
+node_modules/
+.env
+package-lock.json
+stream3510570066.log
