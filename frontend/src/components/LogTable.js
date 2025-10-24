@@ -80,7 +80,7 @@ const LogTable = () => {
             users_data.forEach((data) => {
               const username = data.user_name;
               const bandwidthMbps = convertToMbps1(data.bandwidth);
-              const five_bandwidth = bandwidthMbps * 5;
+              const five_bandwidth = bandwidthMbps;
               if (!aggregation[username]) {
                 aggregation[username] = {
                   username,
